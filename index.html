@@ -7,71 +7,169 @@
     <link rel="stylesheet" href="style.css">
 
     <!-- .js -->
-
+    
 
     <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
     <div id="header"> <!-- open #header -->
-        <h1>Zoe Fine Dining: The Case Study</h1>
-        <div class="header-img"> <!-- open .header-img -->
-            <img src="imgs/placeholder.png" alt="gray-box">
-        </div> <!-- close .header-img -->
+        <h1>Zoe Fine Dining</h1>
     </div> <!-- close #header -->
 
+    <div id="landing"> <!-- open #landing -->
+        <div class="landing-content"> <!-- open .landing-content -->
+            <p>Rethinking, redesigning, and improving the brand and website of Zoe Fine Dining located at the heart of Athens, Ohio.</p>
+        </div> <!-- close .landing-content -->
+        
+        <div class="landing-img"> <!-- open .landing-img -->
+            <img src="imgs/placeholder.png" style="width:100%;" alt="gray-box">
+        </div> <!-- close .landing-img -->
+    </div> <!-- close #landing -->
+
     <div class="content-block1"> <!-- open .content-block1 -->
-        <h2>Project Summary</h2>
-        <p>This will be where we have the summary of the project, what it is for, why we did it, what we hope to achieve from it and so on.</p>
+        <div class="inner-block1"> <!-- open .inner-block1 -->
+            <h2>Project Summary</h2>
+        </div> <!-- close .inner-block1 -->
 
-        <a href="" class="button">Zoe Fine Dining Site</a>
+        <div class="inner-block2"> <!-- open .inner-block2 -->
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.</p>
 
-        <h2>Roles and Responsibilities</h2>
-        <h3>Interactive Team</h3>
-        <ul>
-                <li>Sophie Reed, Project Manager</li>
-                <li>Norbert Fosu, Lead UX Designer</li>
-                <li>Ellie Burke, Lead Developer</li>
-                <li>Emma Hamilton, Lead Designer</li>
-        </ul>
-        <h3>Marketing Team</h3>
-        <ul>
-                <li>Kailee Slusser,</li>
-                <li>Sheldon Andrus,</li>
-                <li>Madeline Lane,</li>
-        </ul>
+            <h2>Timeline</h2>
+            <p>Here we can figure out how we want to explain our timeline and working through the project.</p>
 
-        <h2>Tools Used</h2>
-        <button class="button">Trello</button>
-        <button class="button">HTML</button>
-        <button class="button">CSS</button>
-        <button class="button">Javascript</button>
-
-        <h2>Timeline</h2>
-        <p>Here we can figure out how we want to explain our timeline and working through the project.</p>
+            <h2>Tools Used</h2>
+            <ul>
+                <li>Trello</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+            </ul>
+        </div> <!-- close .inner-block2-->
     </div> <!-- close .content-block1 -->
 
-    <div class="content-block2"> <!-- open .content-block2-->
-        <h2>Walk-Through</h2>
+    <div class="slideshow-container"> <!-- open .slideshow-container -->
 
-        <div class="inner-block finding-story"> <!-- open .inner-block and .finding-story -->
-            <h3>Finding The Story</h3>
-            <p>This is where we'll explain how we found our business to work with, etc.</p>
-        </div> <!-- close .inner-block and .finding-story -->
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade"> <!-- open slide 1 -->
+          <div class="numbertext">1 / 3</div>
+          <img src="imgs/placeholder.png" style="width:100%">
+          <div class="text">Caption Text</div>
+        </div> <!-- close slide 1-->
+      
+        <div class="mySlides fade"> <!-- open slide 2 -->
+          <div class="numbertext">2 / 3</div>
+          <img src="imgs/placeholder.png" style="width:100%">
+          <div class="text">Caption Two</div>
+        </div> <!-- close slide 2 -->
+      
+        <div class="mySlides fade"> <!-- open slide 3 -->
+          <div class="numbertext">3 / 3</div>
+          <img src="imgs/placeholder.png" style="width:100%">
+          <div class="text">Caption Three</div>
+        </div> <!-- close slide 3 -->
+      
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div> <!-- close .slideshow-container -->
 
-        <div class="inner-block inspiration"> <!-- open .inner-block and .inspiration-->
-            <h3>Inspiration</h3>
-            <p>This is where we'll talk about and show some of our inspiration.</p>
-        </div> <!-- close .inner-block and .inspiration -->
+      <br>
+      
+    <!-- The dots/circles -->
+    <div style="text-align:center"> <!-- open dots and circles -->
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div> <!-- close dots and circles -->
 
-        <div class="inner-block goals-personas"> <!-- open .inner-block and .goals-personas -->
-            <h3>Goals and Personas</h3>
-            <p>This is where we'll show our list of goals and explain our personas and the research we did for them.</p>
-        </div> <!-- close .inner-block and goals-personas -->
+
+
+
+    <div class="content-block2"> <!-- open .content-block2 -->
+        <div class="inner-block1"> <!-- open .inner-block1 -->
+            <h2>Roles and Responsibilities</h2>
+        </div> <!-- close .inner-block1 -->
+
+        <div class="inner-block2"> <!-- open .inner-block2 -->
+            <h2>Interactive Team</h2>
+            <ul>
+                <li>Sophie Reed, Poject Manager</li>
+                <li>Norbert Fosu, UX Designer</li>
+                <li>Ellie Burke, Developer</li>
+                <li>Emma Hamilton, Designer</li>
+            </ul>
+
+            <h2>Marketing Team</h2>
+            <ul>
+                <li>Kailee Slusser, </li>
+                <li>Sheldon Andrus, </li>
+                <li>Madeline Lane, </li>
+            </ul>
+        </div> <!-- close .inner-block2-->
     </div> <!-- close .content-block2 -->
+    
+
+
+    <div class="content-block1"> <!-- open .content-block1 -->
+        <div class="inner-block1"> <!-- open .inner-block1 -->
+            <h2>Finding the Story</h2>
+        </div> <!-- close .inner-block1 -->
+
+        <div class="inner-block2"> <!-- open .inner-block2 -->
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.</p>
+        </div> <!-- close .inner-block2-->
+    </div> <!-- close .content-block1 -->
+
+    <div class="slideshow-container"> <!-- open .slideshow-container -->
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade"> <!-- open slide 1 -->
+          <div class="numbertext">1 / 3</div>
+          <img src="imgs/placeholder.png" style="width:100%">
+          <div class="text">Caption Text</div>
+        </div> <!-- close slide 1-->
+      
+        <div class="mySlides fade"> <!-- open slide 2 -->
+          <div class="numbertext">2 / 3</div>
+          <img src="imgs/placeholder.png" style="width:100%">
+          <div class="text">Caption Two</div>
+        </div> <!-- close slide 2 -->
+      
+        <div class="mySlides fade"> <!-- open slide 3 -->
+          <div class="numbertext">3 / 3</div>
+          <img src="imgs/placeholder.png" style="width:100%">
+          <div class="text">Caption Three</div>
+        </div> <!-- close slide 3 -->
+      
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div> <!-- close .slideshow-container -->
+
+      <br>
+      
+    <!-- The dots/circles -->
+    <div style="text-align:center"> <!-- open dots and circles -->
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div> <!-- close dots and circles -->
+    
+
+
 
     
+
+
+
+
+
+    <!-- javascript -->
+    <script src="sketch.js"></script>
 </body>
 
 </html>
