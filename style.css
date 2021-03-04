@@ -67,3 +67,59 @@ h1 {
   background-color: #000;
   color: #fff;
 }
+
+
+
+/* ----- MOBILE MEDIA QUERY ----- */
+@media screen and (max-width: 767px) {
+  #header h1 {
+    font-size: 1.75rem;
+  }
+  
+  .landing-content h2 {
+    font-size: 1.5rem;
+  }
+
+  .content-block1 h2 {
+    font-size: 1.5rem;
+  }
+
+  .inner-block1 h2 {
+    font-size: 1.5rem;
+  }
+
+  .inner-block2 h3 {
+    font-size: 1.5rem;
+  }
+
+  .landing-content {
+    justify-content: center;
+  }
+
+  .landing-content h2 {
+    width: 80%;
+  }
+
+  .content-block1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 30px 30px 30px;
+  }
+
+  .inner-block1 {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .inner-block2 {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .carousel {
+    width: 90%;
+  }
+}
