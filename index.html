@@ -31,6 +31,20 @@
         </ul>
     </div> <!-- close #header -->
 
+    <!-- MOBILE MENU -->
+  <div class="mobile-container"> <!-- open .mobile-container -->
+    <div class="topnav"> <!-- open .topnav -->
+        <a href="index.html" class="active2">Telling Zo&#235;'s Story</a>
+      <div id="myLinks"> <!-- open #myLinks -->
+        <a href="http://www.zoefinefood.com/" target="_blank">Zo&#235;'s Site</a>
+        <a href="http://2021.soulofathens.com/" target="_blank">Soul of Athens</a>
+      </div> <!-- close #myLinks-->
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div> <!-- close .topnav -->
+  </div> <!-- close .mobile-container -->
+
     <div id="content"> <!-- open #content -->
         <div id="landing"> <!-- open #landing -->
             <div class="parallax"></div>
@@ -94,6 +108,41 @@
             <div class="inner-block1"> <!-- open .inner-block1 -->
                 <h2>Research // Who is Zo&#235;?</h2>
                 
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <img class="image" src="imgs/takeout.jpg" alt="">
+                    </div>
+
+                    <div class="grid-item-container">
+                        <div class="grid-item">
+                            <img class="image" src="imgs/takeout.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="grid-item-container"><div class="grid-item">
+                        <img class="image" src="imgs/takeout.jpg" alt="">
+                    </div></div>
+
+                    <div class="grid-item-container"><div class="grid-item">
+                        <img class="image" src="imgs/takeout.jpg" alt="">
+                    </div></div>
+
+                    <div class="grid-item-container"><div class="grid-item">
+                        <img class="image" src="imgs/takeout.jpg" alt="">
+                    </div></div>
+
+                    <div class="grid-item-container"><div class="grid-item">
+                        <img class="image" src="imgs/takeout.jpg" alt="">
+                    </div></div>
+
+                    <div class="grid-item-container"><div class="grid-item">
+                        <img class="image" src="imgs/takeout.jpg" alt="">
+                    </div></div>
+
+                    <div class="grid-item-container"><div class="grid-item">
+                        <img class="image" src="imgs/takeout.jpg" alt="">
+                    </div></div>
+                </div>
             </div> <!-- close .inner-block1 -->
 
             <div class="inner-block2"> <!-- open .inner-block2 -->
@@ -229,9 +278,17 @@
     <!-- my js file --> 
     <script src="sketch.js"></script> 
 
-    <!-- bootstrap carousel js -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> 
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>  
+    <!-- Mobile Menu Script -->
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+  </script> 
 </body>
 
 </html>
