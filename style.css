@@ -1,5 +1,5 @@
 body {
-    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     margin: 0;
     color: #231f20;
@@ -41,26 +41,26 @@ body {
 }
 
 h1 {
-  font-family: 'Nanum Myeongjo', serif;
+  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   font-weight: 800;
   font-size: 2.2em;
 }
 
 h2 {
-  font-family: 'Playfair Display SC', serif;
+  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
 }
 
 h3 {
-  font-family: 'Playfair Display SC', serif;
+  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
 }
 
 #landing {
   position: relative;
   text-align: left;
-  color: black;
+  color: #231f20;
   width: 100%;
 }
 
@@ -69,16 +69,22 @@ h3 {
   z-index: 1000;
   bottom: 20px;
   background-color: rgba(255,255,255,.7);
-  padding: 25px;
-  width: 100%;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 5px;
+  width: 50%;
 }
 
 .land-text p {
-  font-size: 1.4em;
+  font-size: 1.1em;
+}
+
+.land-text h2 {
+  font-weight: 800;
 }
 
 .parallax {
-  background-image: url("imgs/wine-glasses.jpg");
+  background-image: url("imgs/sign-night.jpg");
 
   min-height: 600px;
 
@@ -169,6 +175,13 @@ h3 {
   column-gap: 10px;
 }
 
+.grid img {
+  width: 100% !important;
+  height: auto !important;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .grid2 {
   line-height: 0;
   -webkit-column-count: 3;
@@ -177,13 +190,6 @@ h3 {
   -moz-column-gap:10px;
   column-count: 3;
   column-gap: 10px;
-}
-
-.grid img {
-  width: 100% !important;
-  height: auto !important;
-  margin-top: 10px;
-  margin-bottom: 10px;
 }
 
 .grid2 img {
@@ -221,12 +227,16 @@ h3 {
 
 .button:hover {
   background-color: white;
-  color: black;
-  border: 2px solid black;
+  color: #231f20;
+  border: none; 
 }
 
 #imp-button {
   background-color: #Bf3417;
+}
+
+#imp-container {
+  margin-top: 30px;
 }
 
 .inner-block2 p { 
@@ -249,6 +259,9 @@ h3 {
   transition: 0.4s;
   margin-top: 10px;
   margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .active, .accordion:hover {
@@ -261,6 +274,18 @@ h3 {
   display: none;
   overflow: hidden;
 }
+
+.accordion:after {
+  content: '\142f';
+  float: right;
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+.active:after {
+  content: '\1431';
+}
+
 /* END ACCORDION STYLING */
 
 .footer {
@@ -268,9 +293,9 @@ h3 {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 50px;
+  padding: 20px;
   width: 100%;
-  background-color:rgb(79,90,48);
+  background-color: #535c2d;
   color: #fff;
 }
 
@@ -282,7 +307,17 @@ h3 {
 } 
 
 .footer-desc {
-  width: 50%;
+  width: 65%;
+  font-size: .8em;
+}
+
+.footer-desc a {
+  color: white;
+  text-decoration: underline;
+}
+
+.footer-desc a:hover {
+  color: #292D1B; 
 }
 
 .links {
@@ -290,6 +325,7 @@ h3 {
   display: flex;
   flex-direction: column;
   width: 25%;
+  border: none;
 }
 
 .copyright {
@@ -337,11 +373,15 @@ h3 {
     margin-right: auto;
   }
 
-  .carousel {
-    width: 90%;
+  .placeholder video {
+    width: 96%;
   }
 
-  .links {
-    width: 40%;
+  #imp-container {
+    margin-bottom: 30px;
+  }
+
+  .footer-desc {
+    width: 80%;
   }
 }
